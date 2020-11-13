@@ -1,0 +1,570 @@
+      body {
+          font-family: 'Raleway', sans-serif;
+      }
+      
+      * {
+          box-sizing: border-box;
+      }
+      
+      .logo {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          width: 116px;
+          height: 60px;
+          object-fit: cover;
+          margin: 0px 0px 0px 10px;
+          font-size: 0.8em;
+          font-weight: 500;
+      }
+      
+      .header {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-content: center;
+          min-width: 500px;
+          flex: 1;
+      }
+      
+      nav {
+          min-width: 300px;
+      }
+      
+      ul>.items {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap-reverse;
+          max-width: 400px;
+      }
+      
+      body {
+          background-color: white;
+          color: black;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          margin-left: 20px;
+          width: auto;
+          height: auto;
+          min-width: 500px;
+      }
+      
+      .fa-info {
+          margin-right: 20px;
+          margin-left: 10px;
+          color: #0065FC;
+          border: solid 1px gray;
+          border-radius: 50%;
+          padding: 5px 10px 5px 10px;
+      }
+      
+      .fa-chart-line {
+          margin-left: 70px;
+      }
+      
+      p2 {
+          font-weight: lighter;
+          font-size: medium;
+          margin: 5px;
+      }
+      
+      #heber>a {
+          text-decoration: none;
+          color: black;
+      }
+      
+      #activites>a {
+          text-decoration: none;
+          color: black;
+      }
+      
+      .header {
+          background-color: white;
+          display: flex;
+          justify-content: space-between;
+          min-height: 70px;
+          align-items: center;
+          width: 100%;
+          margin: auto;
+      }
+      
+      .bodyfooter {
+          background-color: #f2f2f2;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-wrap: wrap;
+          width: 100%;
+          height: 450px;
+          margin: 20px;
+      }
+      
+      .utilitaire {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 30px;
+      }
+      
+      .utilitaire ul {
+          display: flex;
+          flex-direction: column;
+      }
+      
+      .fas fa-chart-line .clik li {
+          display: inline;
+          justify-content: space-around;
+          margin: auto;
+      }
+      
+      .clik p {
+          text-align: right;
+          display: inline;
+          color: #0065FC;
+      }
+      
+      ul {
+          display: flex;
+          justify-content: space-between;
+          margin-right: 30px;
+      }
+      
+      .sub-title .color-grey {
+          margin: 10px;
+          display: inline-block;
+          height: 25px;
+      }
+      
+      .bodysection {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: auto;
+          justify-content: space-between;
+      }
+      
+      .articles {
+          display: flex;
+          flex-direction: row;
+          background-color: white;
+          margin-bottom: 20px;
+          justify-content: space-between;
+          width: 100%;
+      }
+      
+      .side-carte {
+          border-radius: 30px;
+          width: 70%;
+      }
+      
+      .side-carte h2 {
+          margin-left: 20px;
+      }
+      
+      .side-carte.right {
+          flex: 1;
+          border-radius: 30px;
+          width: inherit;
+          margin-left: 20px;
+          margin-right: 20px;
+          padding-bottom: 50px;
+          justify-content: space-evenly;
+      }
+      
+      .side-carte.right h1 {
+          margin-left: 20px;
+          margin-top: none;
+          margin-right: 20px;
+      }
+      
+      .side-carte.right h2 {
+          margin: 20px 20px 0px 20px;
+      }
+      
+      .afficherplus {
+          display: flex;
+          align-self: start;
+          text-decoration-line: none;
+          color: black;
+          width: 100%;
+          height: 70px;
+          margin-top: 85px;
+          margin-left: 20px;
+      }
+      
+      .afficherplus a {
+          color: black;
+          text-decoration: none;
+      }
+      
+      .afficherplus>a:hover {
+          color: blue;
+      }
+      
+      .hebergement {
+          display: flex;
+          flex-direction: column;
+          background-color: white;
+          border: solid white 5px;
+          margin: 20px;
+          border-radius: 30px;
+          width: 100%;
+          min-width: 300px;
+          max-width: 350px;
+          min-height: 300px;
+          box-shadow: 6px 6px 6px gainsboro;
+      }
+      
+      .carte1>h2 {
+          width: 100%;
+          height: 22px;
+      }
+      
+      .descriptif {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          margin: 10px;
+          width: 100%;
+          height: 70px;
+          font-size: 0.8em;
+      }
+      
+      .descriptif>h2 {
+          margin-left: 5px;
+          margin-bottom: 5px;
+      }
+      
+      .descriptif>p2 {
+          margin-bottom: 10px;
+      }
+      
+      .hebergement img {
+          border-radius: 30px 30px 0px 0px;
+          width: 100%;
+          height: 175px;
+          object-fit: cover;
+      }
+      
+      .pluspopulaire {
+          display: flex;
+          flex: 1;
+          flex-direction: row;
+          border: solid white 5px;
+          background-color: white;
+          border-radius: 30px;
+          margin: 50px 20px 40px 20px;
+          min-width: 350px;
+          height: 220px;
+          box-shadow: 6px 6px 6px gainsboro;
+      }
+      
+      .legende {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          font-size: 1em;
+          margin: 20px 0px 20px 20px;
+          width: 150px;
+          height: 80%t;
+      }
+      
+      .legende>p2 {
+          margin-left: 20px;
+          margin-bottom: 50px;
+          margin-top: 10px;
+          font-size: 1em;
+      }
+      
+      .legende>h2 {
+          flex: 1;
+          width: 150px;
+          height: auto;
+          font-weight: bolder;
+          font-size: 1.2em;
+          margin-bottom: 10px;
+      }
+      
+      .legende>.etoile {
+          margin: 20px;
+      }
+      
+      .pluspopulaire img {
+          border-radius: 30px 0px 0px 30px;
+          width: 160px;
+          height: 100%;
+          object-fit: cover;
+      }
+      
+      .carte3 {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          align-content: center;
+          width: 100%;
+          height: 100%;
+      }
+      
+      .activites {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          width: 20%;
+          min-width: 360px;
+          min-height: 450px;
+          margin: 20px;
+          object-fit: cover;
+          border-radius: 30px;
+          box-shadow: 6px 6px 6px gainsboro;
+      }
+      
+      .activites h3 {
+          margin-left: 20px;
+      }
+      
+      .superpose {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          margin: 20px;
+          width: 20%;
+          min-width: 360px;
+          height: 500px;
+          min-height: 500px;
+          object-fit: cover;
+          border-radius: 30px;
+      }
+      
+      .superpose h3 {
+          margin-left: 20px;
+      }
+      
+      .superpose img {
+          border-radius: 30px 30px 0px 0px;
+          width: 100%;
+          height: 130px;
+          object-fit: cover;
+      }
+      
+      .curiosite>h3 {
+          display: flex;
+          width: 70%;
+          height: 20px;
+      }
+      
+      .curiosite>img {
+          width: 100%;
+          height: 50%;
+          object-fit: cover;
+      }
+      
+      .curiosite {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: 225px;
+          border-radius: 30px;
+          box-shadow: 6px 6px 6px gainsboro;
+      }
+      
+      .activites img {
+          border-radius: 30px 30px 0px 0px;
+          width: 100%;
+          height: 400px;
+          object-fit: cover;
+      }
+      
+      .etoile {
+          display: flex;
+          color: #0065FC;
+          align-items: baseline;
+          margin: 0px 0px 20px 20px;
+      }
+      
+      .sub-title {
+          font-size: 1rem;
+          font-weight: 400;
+      }
+      
+      .color-grey {
+          color: #5a5a5a;
+      }
+      
+      .etoile>span {
+          color: rgb(163, 161, 161);
+      }
+      
+      ul {
+          list-style-type: none;
+      }
+      
+      h1 {
+          margin-bottom: 10px;
+      }
+      
+      .contener1 {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 70%;
+          min-width: 80%;
+          align-items: center;
+          align-content: center;
+          margin-top: 30px;
+          margin-bottom: 30px;
+      }
+      
+      .contener1,
+      h3 {
+          display: flex;
+          width: 180px;
+          margin: 10px;
+      }
+      
+      .cartouche {
+          display: flex;
+          margin: 10px;
+          border: 2px solid #e4e2e2;
+          border-top-left-radius: 30px;
+          border-bottom-left-radius: 30px;
+          border-top-right-radius: 30px;
+          border-bottom-right-radius: 30px;
+          border-left-color: #deebff;
+          width: auto;
+          height: 40px;
+          flex-direction: row;
+          align-items: baseline;
+      }
+      
+      .euro,
+      .hands,
+      .heart,
+      .dog {
+          color: #0065FC;
+      }
+      
+      .fas fa-euro-sign,
+      .fas fa-child,
+      .fas fa-heart,
+      .fas fa-dog {
+          display: flex;
+          border-bottom-right-radius: 30px;
+          border-bottom-right-radius: 30px;
+          color: blue;
+      }
+      
+      figcaption {
+          background-color: white;
+          width: 150px;
+          height: 20px;
+          margin: 5px;
+          font-weight: bold;
+      }
+      
+      figcaption:hover {
+          color: rgb(231, 107, 24);
+      }
+      
+      .filtre {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          background-color: #deebff;
+          color: #0065FC;
+          width: 40px;
+          height: 36px;
+          border-radius: 50%;
+          border: solid 2px #deebff;
+      }
+      
+      .button {
+          background-color: white;
+          align-items: center;
+          height: 50px;
+      }
+      
+      input {
+          display: flex;
+          border: 2px solid #f2f2f2
+      }
+      
+      .rechercher {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          width: 8%;
+          min-width: 138px;
+          height: 40px;
+          background-color: #0065FC;
+          color: white;
+          border-top-right-radius: 30px;
+          border-bottom-right-radius: 30px;
+      }
+      
+      .position {
+          background-color: #f2f2f2;
+          border-top-left-radius: 30px;
+          border-bottom-left-radius: 30px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          width: 40px;
+          height: 40px;
+      }
+      
+      .fas fa-map-marker-alt {
+          display: flex;
+          width: 40px;
+          height: 30px;
+      }
+      
+      .champ {
+          display: flex;
+          flex-direction: row;
+          height: 40px;
+          min-width: 400px;
+          margin: 10px;
+      }
+      
+      .logo {
+          max-width: 200px;
+          width: 100%;
+      }
+      
+      .nav .items {
+          display: flex;
+          min-width: 100px;
+          margin: 30px;
+      }
+      
+      .nav,
+      .items,
+      a,
+      #Sinscrire {
+          font: 2em;
+          font-weight: bold;
+      }
+      
+      .nav .items .items a {
+          color: #0065FC;
+          font-style: normal;
+          text-decoration: none;
+      }
+      
+      .nav .items .items span a {
+          color: black;
+      }
+      
+      .bg-grey {
+          background-color: #f2f2f2;
+      }
+      
+      .cartes {
+          display: flex;
+          flex-wrap: wrap;
+      }
