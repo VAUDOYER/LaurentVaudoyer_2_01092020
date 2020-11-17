@@ -60,7 +60,7 @@
       }
       
       .fa-chart-line {
-          margin-left: 70px;
+          margin-left: 120px;
       }
       
       p2 {
@@ -99,6 +99,7 @@
           width: 100%;
           height: 450px;
           margin: 20px;
+          font-size: 1.5em;
       }
       
       .utilitaire {
@@ -168,9 +169,6 @@
           border-radius: 30px;
           width: inherit;
           margin-left: 20px;
-          margin-right: 20px;
-          padding-bottom: 50px;
-          justify-content: space-evenly;
       }
       
       .side-carte.right h1 {
@@ -228,8 +226,8 @@
           justify-content: space-evenly;
           margin: 10px;
           width: 100%;
-          height: 70px;
-          font-size: 0.8em;
+          height: 93px;
+          font-size: 1em;
       }
       
       .descriptif>h2 {
@@ -239,6 +237,12 @@
       
       .descriptif>p2 {
           margin-bottom: 10px;
+          margin-left: 5px;
+      }
+      
+      .descriptif>.etoile {
+          margin-left: 5px;
+          align-items: baseline;
       }
       
       .hebergement img {
@@ -255,40 +259,45 @@
           border: solid white 5px;
           background-color: white;
           border-radius: 30px;
-          margin: 50px 20px 40px 20px;
+          margin: 50px 20px 30px 20px;
           min-width: 350px;
-          height: 220px;
+          max-height: 230px;
+          font-size: 1em;
           box-shadow: 6px 6px 6px gainsboro;
       }
       
       .legende {
           display: flex;
+          box-sizing: unset;
           flex-direction: column;
-          justify-content: space-evenly;
-          font-size: 1em;
-          margin: 20px 0px 20px 20px;
-          width: 150px;
-          height: 80%t;
-      }
-      
-      .legende>p2 {
+          font-size: 0.5em;
           margin-left: 20px;
-          margin-bottom: 50px;
-          margin-top: 10px;
-          font-size: 1em;
+          margin-top: 20px;
+          width: 170px;
+          height: 100%;
+          min-height: 200px;
       }
       
       .legende>h2 {
           flex: 1;
-          width: 150px;
+          width: 220px;
+          margin-left: 120px;
           height: auto;
-          font-weight: bolder;
-          font-size: 1.2em;
-          margin-bottom: 10px;
+          font-weight: bold;
+          font-size: 3em;
       }
       
       .legende>.etoile {
           margin: 20px;
+          font-size: 2em;
+          margin-bottom: 30px;
+          align-items: baseline;
+      }
+      
+      .legende,
+      p2 {
+          margin-left: 20px;
+          width: 100%;
       }
       
       .pluspopulaire img {
@@ -307,13 +316,20 @@
           height: 100%;
       }
       
+      .article2 {
+          display: flex;
+          flex-direction: row;
+          margin-left: 20px;
+      }
+      
       .activites {
           display: flex;
           flex-direction: column;
-          align-items: flex-start;
+          align-items: stretch;
           width: 20%;
           min-width: 360px;
-          min-height: 450px;
+          min-height: 500px;
+          height: 500px;
           margin: 20px;
           object-fit: cover;
           border-radius: 30px;
@@ -322,6 +338,8 @@
       
       .activites h3 {
           margin-left: 20px;
+          width: 100%;
+          min-width: 269PX;
       }
       
       .superpose {
@@ -355,8 +373,9 @@
       }
       
       .curiosite>img {
+          box-sizing: unset;
           width: 100%;
-          height: 50%;
+          height: 70%;
           object-fit: cover;
       }
       
@@ -372,15 +391,13 @@
       .activites img {
           border-radius: 30px 30px 0px 0px;
           width: 100%;
-          height: 400px;
+          height: 435px;
           object-fit: cover;
       }
       
       .etoile {
           display: flex;
           color: #0065FC;
-          align-items: baseline;
-          margin: 0px 0px 20px 20px;
       }
       
       .sub-title {
