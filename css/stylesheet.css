@@ -107,6 +107,7 @@
           flex-direction: column;
           align-items: center;
           margin: 30px;
+          font-size: 0.7em;
       }
       
       .utilitaire ul {
@@ -585,4 +586,22 @@
       .cartes {
           display: flex;
           flex-wrap: wrap;
+      }
+      
+      @media screen and (max-width: 880px) {
+          .articles {
+              flex-wrap: wrap-reverse;
+          }
+          .bg-grey side-carte right {
+              width: 100%;
+          }
+          .pluspopulaire {
+              width: 100%;
+          }
+          .hebergement {
+              width: 100%;
+          }
+          .bodysection {
+              display: block;
+          }
       }
